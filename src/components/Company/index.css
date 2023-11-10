@@ -1,0 +1,100 @@
+.company-list-container-card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.input-search-icon-class {
+    width: 25%;
+    border: 1px solid #353333;
+    border-radius: 5px;
+    height: 25px;
+}
+.search-input {
+    border: none;
+    outline: none;
+}
+.search-icon-class {
+    height: 15px;
+    width: 15px;
+}
+.company-sub-heading-is {
+    font-size: 20px;
+    color: #5583de;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+.seach-bar-is {
+    width: 90%;
+    border: none;
+    outline: none;
+    color: #150835;
+    margin-left: 5px;
+    background-color: transparent;
+}
+.company-ul-heading-name {
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(38, 38, 133);
+    text-align: left;
+    display: flex;
+    align-self: flex-start;
+}
+.add-button {
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #5583de;
+    border-radius: 5px;
+}
+.input-resposive-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+.input-card-res {
+    width: 30%;
+    margin: 15px;
+}
+.edit-button-is {
+    color: #85ceee;
+    background-color: transparent;
+    margin-right: 10px;
+    border: 1px solid #150835;
+    border-radius: 5px;
+    padding: 2px;
+}
+.delete-button-is {
+    color: rgb(202, 32, 32);
+    background-color: transparent;
+    border: 1px solid #150835;
+    border-radius: 5px;
+    padding: 2px;
+}
+.table-headers-css {
+    text-align: left;
+    padding-left: 3px;
+    border: 1px solid #ffffff;
+    font-size: 17px;
+}
+.add-company-heading { 
+    background-color: #bcc3e3;
+}
+.add-company {
+    background-image: linear-gradient( #bcc3e3, #dadce7);
+    background-size: cover;
+}
+@media screen and (min-width: 992px){
+    .company-sub-heading-is{
+        font-size: 25px;
+    }
+    .company-ul-heading-name {
+        font-size: 25px;
+    }
+    .table-headers-css {
+        font-size: 20px;
+    }
+}
